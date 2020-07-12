@@ -1,3 +1,9 @@
+'''
+Using a map to store the count of characters from the first String and subtracting the count from the map while iterating the second string.
+
+Given the strings are of same length.
+'''
+
 def isPermutation1(s,t):
     if len(s) != len(t):
         return False
