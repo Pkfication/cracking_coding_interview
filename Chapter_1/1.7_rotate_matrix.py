@@ -1,3 +1,7 @@
+'''
+To rotate a matrix 90 deg, we transpose the matrix and reverse it columnwise.
+'''
+
 def rotate_matrix(a):
     log(arr)
     transpose(arr)

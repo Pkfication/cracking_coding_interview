@@ -1,3 +1,7 @@
+'''
+Keep Count of the Columns and Rows to be nullified after the first traversal. Nullify them afterwards.
+'''
+
 def set_zero(arr):
     rlen = len(arr)
     clen = len(arr[0])

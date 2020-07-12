@@ -1,3 +1,10 @@
+'''
+This problem is based on finding differences on two strins,
+based on three operations: add, remove and update.
+We find the smaller string, keep two pointers on the strings, as soon as we find two mismatches we return false
+or we return true.
+'''
+
 def one_away(str1, str2):
     if str1 == str2: return True
     if abs(len(str1) - len(str2)) > 1: return False

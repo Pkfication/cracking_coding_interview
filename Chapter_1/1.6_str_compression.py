@@ -1,3 +1,9 @@
+'''
+We keep two variables pointing to the current letter
+and current count. Update the letter and count as we
+iterate through the string.
+'''
+
 def str_compression(s1):
     if len(s1) < 3: return s1
 
